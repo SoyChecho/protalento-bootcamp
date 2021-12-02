@@ -7,6 +7,6 @@
   <name>Primer Artefacto creado con Mave+eclipse+github</name>
   <modules>
   	<module>pruebas</module>
-  	<module>app-web-shoppingcart</module>
+  	<module>app-web</module>
   </modules>
 </project>
