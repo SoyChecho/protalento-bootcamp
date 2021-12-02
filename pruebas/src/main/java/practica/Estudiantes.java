@@ -21,6 +21,8 @@ public class Estudiantes {
 		    numEstudiantes = leer.nextInt();
 		    estudiantes = new String[numEstudiantes];
 		    
+		    leer.nextLine();
+		    
 		    System.out.println("Ingrese un total de " + numEstudiantes + " estudiantes con nombre y apellido seguido de la tecla enter: ");
 		    for(int i=0; i<estudiantes.length; i++){
 		        System.out.print("Estudiante "+ (i+1) + ": ");
@@ -30,7 +32,7 @@ public class Estudiantes {
 		    
 		    System.out.println("Los estudiantes a evaluar: ");
 		    for (String estudiante : estudiantes) {
-		        System.out.print(estudiante + "   ");
+		        System.out.print(estudiante + "   " );
 		    }
 		    
 		    //Array Notas
@@ -50,7 +52,9 @@ public class Estudiantes {
 		        System.out.print(nota + "   ");
 		    }
 		    
-		    //Mezclar los array estudiante y nota
+		    //Mezclar los array estudiante y nota en matriz
+		    
+		    calificaciones[][] = new int [i] [i];
 		    
 		    
 		    //Hacemos los calculos deseados..
