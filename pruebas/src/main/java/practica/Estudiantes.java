@@ -52,9 +52,9 @@ public class Estudiantes {
 		        System.out.print(nota + "   ");
 		    }
 		    
-		    //Mezclar los array estudiante y nota en matriz
+		    //Mezclar los array estudiante y nota en matriz intentar for each o algun for
 		    
-		    //calificaciones[][] = new int [i] [i];
+		    
 		    
 		    
 		    //Hacemos los calculos deseados..
