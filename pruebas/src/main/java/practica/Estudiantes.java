@@ -54,7 +54,7 @@ public class Estudiantes {
 		    
 		    //Mezclar los array estudiante y nota en matriz
 		    
-		    calificaciones[][] = new int [i] [i];
+		    //calificaciones[][] = new int [i] [i];
 		    
 		    
 		    //Hacemos los calculos deseados..
