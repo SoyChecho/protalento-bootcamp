@@ -52,12 +52,7 @@ public class Estudiantes {
 		        System.out.print(nota + "   ");
 		    }
 		    
-		    //Mezclar los array estudiante y nota en matriz intentar for each o algun for
-		    
-		    
-		    
-		    
-		    //Hacemos los calculos deseados..
+		   
 		    //suma de las notas
 		    for (double nota : notas) {
 		        suma += nota;
@@ -87,7 +82,7 @@ public class Estudiantes {
 		    System.out.println("Nota mas baja: " + min);
 		    
 		    //alumnos aprobados y suspendidos
-		    for (double nota : notas) {//Este FOR deberia ir en relacion al array donde mezclo estudiantes y notas
+		    for (double nota : notas) {
 		        if(nota >= 7) {
 		            numAprobados++;
 		        } else {
@@ -99,26 +94,7 @@ public class Estudiantes {
 		    
 		    
 		    
-		    
-		    //Array notas
-		    /*for (int i = 0; i < 5; i++) {
-		        System.out.println("Registrando alumno #" + (i+1));
-		        System.out.print("Nombres: ");
-		        estudiantes[i] = leer.nextLine();
-		        System.out.print("Nota Examen 1: ");
-		        notas[i][0] = Double.parseDouble(leer.nextLine());
-		        System.out.print("Nota Examen 2: ");
-		        notas[i][1] = Double.parseDouble(leer.nextLine());
-		        System.out.print("Nota Examen 3: ");
-		        notas[i][2] = Double.parseDouble(leer.nextLine());
-		        System.out.println("Alumno registrado...\n");
-		    }*/
-		    
-		    
-		    /*//# de examenes
-		    System.out.println("Ingrese el numero de examenes de cada alumno: ");
-		    numExamenes = leer.nextInt();
-		    System.out.print("Numero de examenes: " + numExamenes);*/
+
 		    
 		   
 		    
