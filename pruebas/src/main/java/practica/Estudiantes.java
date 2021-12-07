@@ -40,7 +40,7 @@ public class Estudiantes {
 		    numExamenes = leer.nextInt();
 		    notas = new double[numExamenes];
 		    
-		    System.out.println("Ingrese un total de: " + numExamenes + " notas de examen por estudiante");
+		    System.out.println("Ingrese un total de " + numExamenes + " notas de examen por estudiante");
 		    for(int i=0; i<notas.length; i++){
 		        System.out.print("Nota Examen "+ (i+1) + ": ");
 		        notas[i] = leer.nextDouble();
